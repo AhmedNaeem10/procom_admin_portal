@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const base_url = "http://localhost:4000/";
+const base_url = "http://ec2-3-113-8-105.ap-northeast-1.compute.amazonaws.com/";
 
 export const getData = async () => {
     let response = await axios.get(base_url + "ambassadorsData");
